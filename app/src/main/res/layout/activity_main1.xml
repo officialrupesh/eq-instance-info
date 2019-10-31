@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryDark"
+    tools:context=".main1Activity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="510dp"
+        android:layout_height="252dp"
+        android:contentDescription="TODO"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.505"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/cover" />
+
+    <androidx.gridlayout.widget.GridLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:paddingStart="0dp"
+        android:paddingLeft="0dp"
+        android:paddingTop="0dp"
+        android:paddingEnd="0dp"
+        android:paddingRight="0dp"
+        android:paddingBottom="0dp"
+        android:textAlignment="center"
+        android:textDirection="firstStrong"
+        app:layout_column="1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView"
+        app:layout_row="0">
+
+        <Button
+            android:id="@+id/lu"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:background="@drawable/custom_button"
+            android:textColor="@color/colorAccent"
+            android:textAllCaps="false"
+            app:layout_gravity="center"
+
+            android:text="Latest Updates"
+            app:layout_column="0"
+            app:layout_columnWeight="1"
+            app:layout_row="0"
+            app:layout_rowWeight="1" />
+
+        <Button
+            android:id="@+id/ec"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:background="@drawable/custom_button"
+            android:textColor="@color/colorAccent"
+            android:textAllCaps="false"
+            app:layout_gravity="center"
+
+            android:text="Emergency Contacts"
+            app:layout_column="1"
+            app:layout_columnWeight="1"
+            app:layout_row="0"
+            app:layout_rowWeight="1" />
+
+        <Button
+            android:id="@+id/sm"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:background="@drawable/custom_button"
+            android:textColor="@color/colorAccent"
+            android:textAllCaps="false"
+            app:layout_gravity="center"
+            android:text="Safety Measures"
+            app:layout_column="0"
+            app:layout_columnWeight="1"
+            app:layout_row="1"
+            app:layout_rowWeight="1" />
+
+        <Button
+            android:id="@+id/hin"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:background="@drawable/custom_button"
+            android:textColor="@color/colorAccent"
+            android:textAllCaps="false"
+            app:layout_gravity="center"
+            android:text="History In Nepal"
+            app:layout_column="1"
+            app:layout_columnWeight="1"
+            app:layout_row="1"
+            app:layout_rowWeight="1" />
+
+        <Button
+            android:id="@+id/memo"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:background="@drawable/custom_button"
+            android:textColor="@color/colorAccent"
+            android:textAllCaps="false"
+            app:layout_gravity="center"
+            android:text="Memo"
+            app:layout_column="0"
+            app:layout_columnWeight="1"
+            app:layout_row="2"
+            app:layout_rowWeight="1" />
+
+        <Button
+            android:id="@+id/exit"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:background="@drawable/custom_button"
+            android:textColor="@color/colorAccent"
+            android:textAllCaps="false"
+            app:layout_gravity="center"
+            android:text="Exit"
+            app:layout_column="1"
+            app:layout_columnWeight="1"
+            app:layout_row="2"
+            app:layout_rowWeight="1" />
+
+    </androidx.gridlayout.widget.GridLayout>
+
+    <androidx.constraintlayout.widget.Barrier
+        android:id="@+id/barrier"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:barrierDirection="left" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_begin="20dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

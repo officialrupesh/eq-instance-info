@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryDark"
+    tools:context=".main1Activity">
+
+
+    <Button
+        android:id="@+id/BirHosp"
+        android:layout_width="372dp"
+        android:layout_height="100dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="18dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginBottom="612dp"
+        android:background="@drawable/custom_iphonebutton"
+        android:text="Bir Hospital"
+        android:textAllCaps="false"
+        android:textColor="@color/colorAccent" />
+
+    <Button
+        android:id="@+id/TeachingHosp"
+        android:layout_width="372dp"
+        android:layout_height="100dp"
+        android:layout_below="@id/BirHosp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="127dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginBottom="503dp"
+        android:background="@drawable/custom_iphonebutton"
+        android:text="Teaching Hospital"
+        android:textAllCaps="false"
+        android:textColor="@color/colorAccent" />
+
+    <Button
+        android:id="@+id/PatanHosp"
+        android:layout_width="372dp"
+        android:layout_height="100dp"
+        android:layout_below="@id/TeachingHosp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="236dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginBottom="393dp"
+        android:background="@drawable/custom_iphonebutton"
+        android:text="Patan Hospital"
+        android:textAllCaps="false"
+        android:textColor="@color/colorAccent" />
+
+    <Button
+        android:id="@+id/BhaktapurHosp"
+        android:layout_width="372dp"
+        android:layout_height="100dp"
+        android:layout_below="@id/PatanHosp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="346dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginBottom="283dp"
+        android:background="@drawable/custom_iphonebutton"
+        android:text="Bhaktapur Hospital"
+        android:textAllCaps="false"
+        android:textColor="@color/colorAccent" />
+
+    <Button
+        android:id="@+id/BnBHosp"
+        android:layout_width="372dp"
+        android:layout_height="100dp"
+        android:layout_below="@id/BhaktapurHosp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="460dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginBottom="169dp"
+        android:background="@drawable/custom_iphonebutton"
+        android:text="B n B Hospital"
+        android:textAllCaps="false"
+        android:textColor="@color/colorAccent" />
+
+    <Button
+        android:id="@+id/MedicareHosp"
+        android:layout_width="372dp"
+        android:layout_height="100dp"
+        android:layout_below="@id/BnBHosp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="574dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginBottom="55dp"
+        android:background="@drawable/custom_iphonebutton"
+        android:text="Medicare Hospital"
+        android:textAllCaps="false"
+        android:textColor="@color/colorAccent" />
+
+</RelativeLayout>

@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryDark"
+    tools:context=".main1Activity">
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="510dp"
+        android:layout_height="252dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.505"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/cover" />
+
+
+    <Button
+        android:id="@+id/callP"
+        android:layout_width="372dp"
+        android:layout_height="101dp"
+        android:layout_below="@+id/imageView"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="3dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginBottom="375dp"
+
+        android:background="@drawable/custom_iphonebutton"
+        android:text="Call Police"
+        android:textAllCaps="false"
+        android:textColor="@color/colorAccent" />
+
+    <Button
+        android:id="@+id/callB"
+        android:layout_width="372dp"
+        android:layout_height="101dp"
+        android:layout_below="@+id/imageView"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="122dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginBottom="256dp"
+
+        android:background="@drawable/custom_iphonebutton"
+        android:text="Call Brigade"
+        android:textAllCaps="false"
+        android:textColor="@color/colorAccent"
+        tools:visibility="visible" />
+
+    <Button
+        android:id="@+id/callH"
+        android:layout_width="372dp"
+        android:layout_height="101dp"
+        android:layout_below="@+id/imageView"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="236dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginBottom="142dp"
+
+        android:background="@drawable/custom_iphonebutton"
+        android:text="Call Hospital"
+        android:textAllCaps="false"
+        android:textColor="@color/colorAccent"
+        tools:visibility="visible" />
+
+    <Button
+        android:id="@+id/callD"
+        android:layout_width="372dp"
+        android:layout_height="101dp"
+        android:layout_below="@+id/imageView"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="360dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginBottom="18dp"
+
+        android:background="@drawable/custom_iphonebutton"
+        android:text="Open Dialer"
+        android:textAllCaps="false"
+        android:textColor="@color/colorAccent"
+        tools:visibility="visible" />
+
+
+</RelativeLayout>
