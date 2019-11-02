@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/earthquake_layout"
+    android:layout_margin="10dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:background="#40739e"
+    android:paddingBottom="16dp"
+    android:paddingTop="16dp">
+
+
+    <TextView
+        android:textSize="22dp"
+        android:gravity="center"
+        android:text="2.2"
+        android:textAlignment="center"
+        android:textColor="#ffffff"
+        android:id="@+id/earthquake_mag"
+        android:background="#192a56"
+        android:layout_width="70dp"
+        android:layout_height="70dp" />
+
+    <TextView
+        android:textColor="#ffffff"
+        android:textAlignment="center"
+        android:textSize="19dp"
+        android:text="6km WNW of The Gerysers, CA"
+        android:layout_marginLeft="20dp"
+        android:layout_centerVertical="true"
+        android:layout_toRightOf="@id/earthquake_mag"
+        android:id="@+id/earthquake_place"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:visibility="gone"
+        android:id="@+id/earthquake_url"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+
+
+
+
+</RelativeLayout>

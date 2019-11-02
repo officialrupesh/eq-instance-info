@@ -7,6 +7,8 @@
     android:background="@color/colorPrimaryDark"
     tools:context=".main1Activity">
 
+
+
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -17,8 +19,9 @@
         />
 
     <ScrollView
+        android:id="@+id/scroll1"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="wrap_content"
         android:layout_below="@+id/refresh"
         >
 
@@ -32,6 +35,10 @@
         android:padding="5dp"
         android:textSize="24sp"
         />
+
+
+
+
     </ScrollView>
 
 
