@@ -8,13 +8,14 @@ import android.view.View;
 
 public class SafetyMeasures extends AppCompatActivity {
 
-    @Override
-    protected void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_sm);
+//    @Override
+//    protected void onCreate(Bundle savedInstanceState) {
+//        super.onCreate(savedInstanceState);
+//        setContentView(R.layout.activity_sm);
+//
+//        ViewPager viewPager = findViewById(R.id.viewPager);
+//        ImageAdapter adapter = new ImageAdapter(this);
+//        viewPager.setAdapter(adapter);
+//    }
 
-        ViewPager viewPager = findViewById(R.id.viewPager);
-        ImageAdapter adapter = new ImageAdapter(this);
-        viewPager.setAdapter(adapter);
-    }
 }
