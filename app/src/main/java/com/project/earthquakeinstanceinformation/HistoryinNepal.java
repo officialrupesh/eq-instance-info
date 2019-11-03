@@ -43,7 +43,7 @@ public class HistoryinNepal extends AppCompatActivity {
                 "and 1934 A.D. and there is a real threat that a major earthquake may occur in this gap that will affect " +
                 "Western Nepal. \n \n \n Thank you!!";
 
-            stringBuilder.append(someMessage);
+        stringBuilder.append(someMessage);
 
         mMessagewindow.setText(stringBuilder.toString());
 

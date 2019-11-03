@@ -1,6 +1,7 @@
 package com.project.earthquakeinstanceinformation;
 
 import android.content.Intent;
+import android.net.Uri;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -61,15 +62,15 @@ public class main1Activity extends AppCompatActivity {
                 }
             }); //History in Nepal
 
-            //Memo
+            //Link to USGS Earthquake Page
             b_memo=(Button) findViewById(R.id.memo);
             b_memo.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View view) {
-                    Intent in_memo =new Intent(main1Activity.this, memo.class);
-                    startActivity(in_memo);
+                   Intent browserIntent= new Intent(Intent.ACTION_VIEW, Uri.parse("https://earthquake.usgs.gov"));
+                    startActivity(browserIntent);
                 }
-            }); //Memo
+            }); //MUSGS
 
             //exit
         exit = (Button) findViewById(R.id.exit);        //exit

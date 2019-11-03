@@ -41,13 +41,13 @@
             android:layout_width="100dp"
             android:layout_height="100dp"
             android:background="@drawable/custom_button"
-            android:textColor="@color/colorAccent"
-            android:textAllCaps="false"
-            app:layout_gravity="center"
-
             android:text="Latest Updates"
+            android:textAllCaps="false"
+            android:textColor="#FFFFFF"
+
             app:layout_column="0"
             app:layout_columnWeight="1"
+            app:layout_gravity="center"
             app:layout_row="0"
             app:layout_rowWeight="1" />
 
@@ -56,13 +56,13 @@
             android:layout_width="100dp"
             android:layout_height="100dp"
             android:background="@drawable/custom_button"
-            android:textColor="@color/colorAccent"
-            android:textAllCaps="false"
-            app:layout_gravity="center"
-
             android:text="Emergency Contacts"
+            android:textAllCaps="false"
+            android:textColor="#FFFFFF"
+
             app:layout_column="1"
             app:layout_columnWeight="1"
+            app:layout_gravity="center"
             app:layout_row="0"
             app:layout_rowWeight="1" />
 
@@ -71,12 +71,12 @@
             android:layout_width="100dp"
             android:layout_height="100dp"
             android:background="@drawable/custom_button"
-            android:textColor="@color/colorAccent"
-            android:textAllCaps="false"
-            app:layout_gravity="center"
             android:text="Safety Measures"
+            android:textAllCaps="false"
+            android:textColor="#FFFFFF"
             app:layout_column="0"
             app:layout_columnWeight="1"
+            app:layout_gravity="center"
             app:layout_row="1"
             app:layout_rowWeight="1" />
 
@@ -85,12 +85,12 @@
             android:layout_width="100dp"
             android:layout_height="100dp"
             android:background="@drawable/custom_button"
-            android:textColor="@color/colorAccent"
-            android:textAllCaps="false"
-            app:layout_gravity="center"
             android:text="History In Nepal"
+            android:textAllCaps="false"
+            android:textColor="#FFFFFF"
             app:layout_column="1"
             app:layout_columnWeight="1"
+            app:layout_gravity="center"
             app:layout_row="1"
             app:layout_rowWeight="1" />
 
@@ -99,12 +99,12 @@
             android:layout_width="100dp"
             android:layout_height="100dp"
             android:background="@drawable/custom_button"
-            android:textColor="@color/colorAccent"
+            android:text="Web View"
             android:textAllCaps="false"
-            app:layout_gravity="center"
-            android:text="Memo"
+            android:textColor="#FFFFFF"
             app:layout_column="0"
             app:layout_columnWeight="1"
+            app:layout_gravity="center"
             app:layout_row="2"
             app:layout_rowWeight="1" />
 
@@ -113,12 +113,12 @@
             android:layout_width="100dp"
             android:layout_height="100dp"
             android:background="@drawable/custom_button"
-            android:textColor="@color/colorAccent"
-            android:textAllCaps="false"
-            app:layout_gravity="center"
             android:text="Exit"
+            android:textAllCaps="false"
+            android:textColor="#FFFFFF"
             app:layout_column="1"
             app:layout_columnWeight="1"
+            app:layout_gravity="center"
             app:layout_row="2"
             app:layout_rowWeight="1" />
 
