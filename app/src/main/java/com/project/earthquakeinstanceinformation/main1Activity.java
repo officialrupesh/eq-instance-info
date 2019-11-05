@@ -70,7 +70,7 @@ public class main1Activity extends AppCompatActivity {
                    Intent browserIntent= new Intent(Intent.ACTION_VIEW, Uri.parse("https://earthquake.usgs.gov"));
                     startActivity(browserIntent);
                 }
-            }); //MUSGS
+            }); //USGS
 
             //exit
         exit = (Button) findViewById(R.id.exit);        //exit
